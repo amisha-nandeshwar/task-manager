@@ -30,14 +30,14 @@ h2{
 }
 /*input box aur add btn ka layout*/
 .input-section{
-    display: flex;
+    display: flex !important;
     gap: 10px;
     margin-bottom: 20px;
     position: relative;
     z-index: 10; /*ise button click krne ke liye sabse upar rakhega*/
 }
 input{
-    flex: 1;
+    flex: 1 !important;
     padding: 10px;
     border: 2px solid #e0e0e0;
     border-radius: 8px;
