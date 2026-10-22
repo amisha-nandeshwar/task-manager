@@ -33,7 +33,7 @@ h2{
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    
+    position: relative;
     z-index: 10; /*ise button click krne ke liye sabse upar rakhega*/
 }
 input{
@@ -44,6 +44,9 @@ input{
     font-size: 16px;
     outline: none;
     transition: 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 input:focus{
     border-color: #667eea;
