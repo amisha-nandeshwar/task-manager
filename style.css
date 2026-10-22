@@ -219,11 +219,26 @@ transition: 0.2s;
         margin: 10px auto;
         padding: 15px;
     }
+    .input-section {
+        display: flex !important;
+        gap:8px !important;
+    }
     input[type="text"] {
         font-size: 16px !important; 
         flex: 1 !important;
+        width: 100% !important;
     }
-}
+        .task-left {
+            display: flex !important;
+            align-items: center !important;
+            gap: 10px !important;
+        }
+        .task-left input[type="checkbox"] {
+            margin: 0 !important;
+            align-self: center !important;
+        }
+    }
+
 li input[type="checkbox"] {
     margin: 0 !important;
 }
